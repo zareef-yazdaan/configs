@@ -10,6 +10,9 @@ polybar -c ~/.config/polybar/config.ini &
 killall dunst
 dunst
 
+killall flameshot
+flameshot &
+
 killall spotify-listener
 spotify-listener &
 disown
