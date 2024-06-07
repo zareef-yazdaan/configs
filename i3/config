@@ -54,10 +54,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+q kill
+bindsym $mod+i exec nitrogen
 
 #gaps
 
@@ -74,7 +75,7 @@ default_floating_border pixel $border_size
 #border colors
 client.focused #b16286 #b16286 #b16286 #b16286 #b16286
 client.focused_inactive #b16286 #b16286 #b16286 #b16286 #b16286
-client.unfocused #b16286 #b16286 #b16286 #b16286 #b16286
+client.unfocused #282828 #282828 #282828 #282828 #282828
 client.placeholder #b16286 #b16286 #b16286 #b16286 #b16286
 
 # start rofi(a program launcher)
